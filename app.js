@@ -12,4 +12,4 @@ app.get('/index' , (req,res) => {
   res.render('index.ejs');
 });
 
-app.listen(8080);
+const PORT = process.env.PORT || 3000;
