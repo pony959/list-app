@@ -12,4 +12,4 @@ app.get('/index' , (req,res) => {
   res.render('index.ejs');
 });
 
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
