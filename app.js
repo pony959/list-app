@@ -11,3 +11,5 @@ app.get('/', (req, res) => {
 app.get('/index' , (req,res) => {
   res.render('index.ejs');
 });
+
+app.listen(8080);
